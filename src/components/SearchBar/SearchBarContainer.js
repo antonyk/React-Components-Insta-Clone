@@ -1,8 +1,9 @@
 // You do not need to change any code in this file
 import React from "react";
+import {useState} from 'react';
 import "./SearchBar.css";
 
-const SearchBar = () => {
+export default function SearchBar() {
   return (
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
@@ -28,5 +29,3 @@ const SearchBar = () => {
     </div>
   );
 };
-
-export default SearchBar;
